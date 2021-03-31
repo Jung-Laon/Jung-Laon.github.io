@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>contact </title>
+    <style type="text/css">
+        .index{
+            height: 60px;
+            margin: 0mm ;
+            text-align: right;
+            background-color: brgb(35,35,35);
+        }
+         #main_b{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(35,35,35);
+            color: white;
+            margin: 10px;
+        }
+        input[type="text"],[type="email"]{
+            width: 200px;
+            height: 30px;
+            box-sizing: border-box;
+            border: 2px solid teal;
+            font-size: 11pt;
+            text-indent: 5px;
+            border-radius: 10px;
+        }
+        textarea{
+            width: 500px;
+            height: 140px;
+            box-sizing: border-box;
+            border: 2px solid teal;
+            font-size: 11pt;
+            text-indent: 5px;
+            padding:5px;
+            resize: none;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        .text_wrap{
+            background-image: url(./img/czech_dark.jpg);
+            background-size: 750px;
+            border: 5px solid teal;
+            width: 700px;
+            height: 420px;
+            box-sizing: border-box;
+            margin-left: 10px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            border-radius: 10px;
+        }
+        .text_form{
+            margin: 20px;
+        }
+       button{
+           width: 80px;
+           height: 30px;
+           font-size: 12pt;
+           font-family: sans-serif;
+           border-radius: 10px;
+           border: 1px solid teal;
+       }
+    </style>
+</head>
+
+<body id="main_b">
+    <header class="index" >
+        <a href="../hw01/index.html" target="_self"> <img src="../img/home.png" title="홈 화면으로"></a>
+        <a href="../hw02/hw02.html" target="_self"> <img src="../img/about.png" title="자기소개"></a>
+        <a href="../hw03/hw03.html" target="_self"> <img src="../img/goal.png" title="목표"></a>
+        <a href="./hw04.html" target="_self"> <img src="../img/contact_selec.png" title="연락" ></a>
+   </header>
+   <center>
+        <div class="text_wrap">
+            <div class="text_form">
+                <label for=name>NAME : </label><input id="name" type="text" maxlength="5" required placeholder="이름"><br><br>
+                <label for="email">E-MAIL : </label><input id="email" type="email" required placeholder="sample@gmaill.com"><br><br>
+                <label for="e_title">TITLE : </label><input id="e_title" type="text" required placeholder="제목을 작성해주세요"><br><br>
+                <label for="message">MESSAGE : </label> <textarea cols="30" rows="10" required placeholder="내용을 작성해주세요"></textarea><br><br>
+                <button type="submit">보내기</button>
+            </div>
+        </div>
+        <div>
+            <audio src="./music/Outlaw's Farewell (part II) - Reed Mathis.mp3" autoplay controls loop></audio>
+        </div>
+   </center>
+
+</body>
+</html>
