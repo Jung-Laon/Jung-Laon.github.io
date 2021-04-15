@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> works </title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0 auto;
+            list-style-type: none;
+        }
+        html, body, .wrap{
+            height: 100%;
+        }
+        .wrap{
+            
+            min-height: 800px;
+            font-weight: bolder;
+        }
+        .header{
+            position: fixed;/*header 상단 고정*/
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 120px;
+            background-color: rgb(127, 154, 206);
+        }
+        #menu{
+            clear: both;
+            height: 50px;
+            background-color: rgb(127, 154, 206);
+            color: rgb(95, 95, 95);
+            text-align: right;
+            padding-top: 10px;
+            font-size: 18pt;
+        }
+        #menu li{
+            display: inline;
+        }
+        .in_menu{
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .container{
+            text-align: center;
+            min-height: 100%;/*footer 위로 끌어 올리는 거임*/
+            margin-top: 150px;
+            box-sizing: border-box;
+            background-color: rgb(255, 255, 255);
+        }
+        .content{
+            width: 100%;
+            height: 1500px;
+            font-size: 14pt;
+        }
+        .footer{
+            position: fixed;/*footer 하단 고정*/
+            bottom: 0;
+            right: 0;
+            left: 0;
+            height: 100px;
+            background-color: rgb(127, 154, 206);
+            text-align: center;
+            font-size: 15pt;
+            
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <ul id="menu">
+                <li class="in_menu"> <a href="./intro_ppap.html"> <span style="color: rgb(95, 95, 95);"> MAIN </span> </a> </li> <li>/</li>
+                <li class="in_menu"> <a href="./about_ppap.html"> <span style="color: rgb(95, 95, 95);"> ABOUT</span> </a> </li> <li>/</li>
+                <li class="in_menu"> <a href="./works_ppap.html"> <span style="color: rgb(95, 95, 95);"> WORKS </span> </a> </li> <li>/</li>
+                <li class="in_menu"> <a href="./sns_ppap.html"> <span style="color: rgb(95, 95, 95);"> SNS </span> </a> </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="content">
+                <table>
+                    <tr><td width="700px" colspan="2" height="50px">자빱TV 메인 콘텐츠</td></tr>
+                    <tr>
+                        <td> <img src="./img/Ujeongri_1.jpg" width="300px" height="170px"> </td>
+                        <td> <img src="./img/tokki.jpg" width="300px" height="170px"> </td>
+                    </tr>
+                    <tr>
+                        <td> <img src="./img/jamea.jpg" width="300px" height="170px"> </td>
+                        <td> <img src="./img/seorisamak.jpg" width="300px" height="170px"> </td>
+                    </tr>
+                    <tr><td colspan="2" height="70px">자빱 인터뷰</td></tr>
+                    <tr>
+                        <td colspan="2"> <a href="https://www.youtube.com/watch?v=S_oBG1APRJI" target="_blank"> <img src="./img/interview_sook.jpg" width="300px" height="170px"></a> </td>
+                    </tr>
+                    <tr>
+                        <td> <a href="https://1boon.kakao.com/HappyMoonday/contents119" target="_blank"><img src="./img/interview_moonday.png" width="300px" height="170px"></a></td>
+                        <td> <a href="https://www.youtube.com/watch?v=GHS6PCWplyE&t=47s" target="_blank"><img src="./img/interview_bigwave.jpg" width="300px" height="170px"></a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" height="70px">자빱 콜라보</td>
+                    </tr>
+                    <tr>
+                        <td> <a href="https://twitter.com/swop_playground/status/1315960314282745862" target="_blank"><img src="./img/interview_swop.jpg" width="350px"></a></td>
+                        <td> <a href="https://fuseseoul.com/article/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/70538/" target="_blank"> <img src="./img/ujeong_fuse.jpg" width="300px"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer"><a href="https://cafe.daum.net/jappapcinema/_rec" target="_blank"><span style="color: rgb(95, 95, 95);">월드 페이머스 스트리머 자빱의 팬카페에서 더 재미있는 소식들을 확인하기</span></a></div>
+    </div>
+</body>
+
+</html>
